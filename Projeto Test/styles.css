@@ -1,0 +1,38 @@
+/*.Canal{
+    font-size: 25px;
+    color: rgb(207, 0, 0);
+    font-weight: bold;
+    transition: all 0.5s ease;
+    position: absolute;
+    top: 600px; /* Posição vertical inicial /
+    left: 44%; / Posição horizontal inicial /
+} */
+
+.Canal {
+    background-color: #333; /* Cor de fundo */
+    color: #00b1dd; /* Cor do texto */
+    border: none; /* Sem borda */
+    padding: -3px -3px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    text-decoration: none; /* Remove sublinhado */
+    display: inline-block; /* Para o botão ficar ao lado de outros elementos */
+    font-size: 18px; /* Tamanho da fonte */
+    border-radius: 25px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de mão quando passa por cima */
+    transition: transform 0.3s, background-color 0.3s; /* Transição suave na mudança de cor e movimento */
+    position: absolute; /* Posicionamento absoluto para movimentar o botão */
+    top: 95%; /* Posiciona o botão no meio da tela verticalmente */
+    left: 94%; /* Posiciona o botão no meio da tela horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta o centro exato do botão */
+    width: 100px; /* Largura do botão */
+    height: 10px; /* Altura do botão */
+}
+
+.kim{
+    top: 20%; /* Posiciona o botão no meio da tela verticalmente */
+    left: 40%; /* Posiciona o botão no meio da tela horizontalmente */
+    width: 23px; /* Largura do botão */
+    height: 20px; /* Altura do botão */
+}
+
+
